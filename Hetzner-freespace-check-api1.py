@@ -96,7 +96,7 @@ except json.JSONDecodeError as e:
 if free_space < fs_threshold:
     #TOO LITTLE FREESPACE
     ret_msg = f"Hetzner [PROBLEM] - Freespace is less than {fs_threshold}GB"
-    ret_msg =  ret_msg + " (from tasksched lenovonas)"
+    ret_msg =  ret_msg + " (from tasksched on PC)"
     print(ret_msg)
 
     try:
